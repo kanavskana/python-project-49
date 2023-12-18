@@ -3,10 +3,10 @@ from random import randint
 
 MIN = 1
 MAX = 100
-DESCRIPTION  = print('Answer "yes" if the number is even, otherwise answer "no".')
+DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 
 
-def even():
+def brain():
     random_number = randint(MIN, MAX)
 
     if number(random_number):

@@ -10,7 +10,7 @@ def start(game):
     index = 0
 
     while index < WINSCORE:
-        question, correct_answer = game.even()
+        question, correct_answer = game.brain()
         print(f'Question:{question}')
         answer = prompt.string('Your answer: ')
 
