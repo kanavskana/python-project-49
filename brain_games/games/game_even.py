@@ -16,5 +16,6 @@ def brain():
     question = random_number
     return question, correct_answer
 
+
 def number(random_number):
-        return random_number % 2 == 0
+    return random_number % 2 == 0

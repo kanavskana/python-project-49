@@ -21,6 +21,6 @@ def start(game):
                   f"Correct answer was '{correct_answer}'.")
             print(f'Let\'s try again, {name}!')
             return
-        index+=1
-    
+        index += 1
+
     print(f'Congratulations, {name}!')

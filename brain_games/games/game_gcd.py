@@ -6,6 +6,7 @@ MIN = 1
 MAX = 100
 DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 
+
 def brain():
     first_number = random.randint(MIN, MAX)
     second_number = random.randint(MIN, MAX)

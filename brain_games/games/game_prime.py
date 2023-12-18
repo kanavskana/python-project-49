@@ -12,6 +12,7 @@ def is_prime(random_number):
             return 'no'
     return 'yes'
 
+
 def brain():
     random_number = random.randint(MIN, MAX)
     question = random_number

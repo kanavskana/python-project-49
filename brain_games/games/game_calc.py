@@ -8,14 +8,14 @@ DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 
 
 def brain():
-    first_number = random.randint(MIN, MAX)
-    second_number = random.randint(MIN, MAX)
+    first_num = random.randint(MIN, MAX)
+    second_num = random.randint(MIN, MAX)
     operators = {
          '*': operator.mul,
          '+': operator.add,
          '-': operator.sub
     }
-    selected_operator = random.choice(list(operators))
-    question = f'{first_number} {selected_operator} {second_number}'
-    correct_answer = str(operators.get(selected_operator)(first_number,second_number))
+    selected_oper = random.choice(list(operators))
+    question = f'{first_num} {selected_oper} {second_num}'
+    correct_answer = str(operators.get(selected_oper)(first_num, second_num))
     return question, correct_answer

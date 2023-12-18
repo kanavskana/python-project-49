@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Brain-games"
 authors = ["Максим Ильин <karnelius61@yandex.ru>"]
 readme = "README.md"
-repository = "https://github.com/python-poetry/poetry"
+repository = "https://github.com/kanavskana/python-project-49"
 classifiers = [
     "License :: Free for non-commercial use",
     "Natural Language :: English",
