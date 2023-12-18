@@ -3,7 +3,7 @@ from random import randint
 
 MIN = 1
 MAX = 100
-DESCRIPTION = 'Find the greatest common divisor of given numbers.'
+DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def brain():

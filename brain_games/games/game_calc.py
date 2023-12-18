@@ -4,7 +4,7 @@ import operator
 
 MIN = 1
 MAX = 100
-DESCRIPTION = 'Find the greatest common divisor of given numbers.'
+DESCRIPTION = 'What is the result of the expression?'
 
 
 def brain():
