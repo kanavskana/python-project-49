@@ -11,9 +11,9 @@ def brain():
     first_num = random.randint(MIN, MAX)
     second_num = random.randint(MIN, MAX)
     operators = {
-         '*': operator.mul,
-         '+': operator.add,
-         '-': operator.sub
+        '*': operator.mul,
+        '+': operator.add,
+        '-': operator.sub
     }
     selected_oper = random.choice(list(operators))
     question = f'{first_num} {selected_oper} {second_num}'
