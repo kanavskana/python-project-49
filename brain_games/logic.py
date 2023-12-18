@@ -11,7 +11,7 @@ def start(game):
 
     while index < WINSCORE:
         question, correct_answer = game.brain()
-        print(f'Question:{question}')
+        print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
 
         if answer == correct_answer:
