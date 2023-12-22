@@ -4,7 +4,7 @@ import random
 DESCRIPTION = 'What number is missing in the progression?'
 
 
-def brain():
+def get_values():
     progression_start = random.randint(1, 20)
     length = random.randint(5, 10)
     progression = list(progression_start * i for i in range(1, length + 1))

@@ -6,10 +6,10 @@ MAX = 100
 DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def brain():
+def get_values():
     random_number = randint(MIN, MAX)
 
-    if number(random_number):
+    if is_even(random_number):
         correct_answer = 'yes'
     else:
         correct_answer = 'no'
@@ -17,5 +17,5 @@ def brain():
     return question, correct_answer
 
 
-def number(random_number):
+def is_even(random_number):
     return random_number % 2 == 0

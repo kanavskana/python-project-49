@@ -7,7 +7,7 @@ MAX = 100
 DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 
 
-def brain():
+def get_values():
     first_number = random.randint(MIN, MAX)
     second_number = random.randint(MIN, MAX)
     question = f'{first_number} {second_number}'

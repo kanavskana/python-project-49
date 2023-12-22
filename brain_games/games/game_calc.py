@@ -7,7 +7,7 @@ MAX = 100
 DESCRIPTION = 'What is the result of the expression?'
 
 
-def brain():
+def get_values():
     first_num = random.randint(MIN, MAX)
     second_num = random.randint(MIN, MAX)
     operators = {
